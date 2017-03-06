@@ -1,4 +1,4 @@
-exports.SERVICES = ['21.co']
+exports.SERVICES = ['21.co', 'blockcypher']
 
 const endpoints = {}
 exports.SERVICES.forEach(service => {
