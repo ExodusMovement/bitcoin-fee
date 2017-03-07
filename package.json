@@ -1,7 +1,7 @@
 {
   "name": "bitcoin-fee",
   "version": "0.0.2",
-  "description": "Get recomended bitcoin fees",
+  "description": "Get recommended bitcoin fees",
   "main": "index.js",
   "scripts": {
     "unit": "tape test/*.js | tap-spec",
