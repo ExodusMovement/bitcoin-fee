@@ -1,4 +1,11 @@
-exports.SERVICES = ['21.co', 'blockcypher', 'bitpay', 'breadwallet', 'btc.com']
+exports.SERVICES = [
+  '21.co',
+  'blockcypher',
+  'bitpay',
+  'blockr',
+  'breadwallet',
+  'btc.com'
+]
 
 const endpoints = {}
 exports.SERVICES.forEach(service => {
