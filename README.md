@@ -4,11 +4,13 @@
 
     npm install bitcoin-fee
 
+
 ## Usage
 
 ```js
 const BTCfee = require('bitcoin-fee')
 ```
+
 
 ### `BTCfee.fetchFee(service)`
 
@@ -24,9 +26,11 @@ BTCfee.fetchFee('21.co')
 // -> 240
 ```
 
+
 ### `BTCfee.SERVICES`
 
 This is an array of available services to query.
+
 
 ## License
 
