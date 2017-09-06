@@ -1,3 +1,8 @@
+1.0.0 / 2017-09-06
+------------------
+
+- remove `blockr` & `breadwallet` services
+
 0.1.0 / 2017-04-20
 ------------------
 - added `blockr`
