@@ -2,7 +2,6 @@ exports.SERVICES = [
   '21.co',
   'blockcypher',
   'bitpay',
-  'breadwallet',
   'btc.com'
 ]
 
