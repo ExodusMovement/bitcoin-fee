@@ -1,5 +1,5 @@
 const endpoints = {
-  '21.co': require('./services/21.co'),
+  'earn': require('./services/earn'),
   'blockcypher': require('./services/blockcypher'),
   'bitpay': require('./services/bitpay'),
   'btc.com': require('./services/btc.com')
