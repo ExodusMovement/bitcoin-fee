@@ -738,11 +738,7 @@ locate-path@^2.0.0:
     p-locate "^2.0.0"
     path-exists "^3.0.0"
 
-lodash@^3.6.0:
-  version "3.10.1"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
-
-lodash@^4.0.0, lodash@^4.3.0:
+lodash@^4.0.0, lodash@^4.17.10, lodash@^4.3.0:
   version "4.17.15"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
@@ -921,11 +917,12 @@ progress@^1.1.8:
   version "1.1.8"
   resolved "https://registry.yarnpkg.com/progress/-/progress-1.1.8.tgz#e260c78f6161cdd9b0e56cc3e0a85de17c7a57be"
 
-re-emitter@^1.0.0:
+re-emitter@1.1.3:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/re-emitter/-/re-emitter-1.1.3.tgz#fa9e319ffdeeeb35b27296ef0f3d374dac2f52a7"
+  integrity sha1-+p4xn/3u6zWycpbvDz03TawvUqc=
 
-readable-stream@^2.0.0, readable-stream@^2.1.5, readable-stream@^2.2.2:
+readable-stream@2.2.9, readable-stream@^2.1.5, readable-stream@^2.2.2:
   version "2.2.9"
   resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.2.9.tgz#cf78ec6f4a6d1eb43d26488cac97f042e74b7fc8"
   dependencies:
@@ -1015,9 +1012,10 @@ slice-ansi@0.0.4:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/slice-ansi/-/slice-ansi-0.0.4.tgz#edbf8903f66f7ce2f8eafd6ceed65e264c831b35"
 
-split@^1.0.0:
+split@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/split/-/split-1.0.0.tgz#c4395ce683abcd254bc28fe1dabb6e5c27dcffae"
+  integrity sha1-xDlc5oOrzSVLwo/h2rtuXCfc/64=
   dependencies:
     through "2"
 
@@ -1105,26 +1103,28 @@ table@^3.7.8:
     slice-ansi "0.0.4"
     string-width "^2.0.0"
 
-tap-out@^1.4.1:
-  version "1.4.2"
-  resolved "https://registry.yarnpkg.com/tap-out/-/tap-out-1.4.2.tgz#c907ec1bf9405111d088263e92f5608b88cbb37a"
+tap-out@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/tap-out/-/tap-out-2.1.0.tgz#c093079a915036de8b835bfa3297f14458b15358"
+  integrity sha512-LJE+TBoVbOWhwdz4+FQk40nmbIuxJLqaGvj3WauQw3NYYU5TdjoV3C0x/yq37YAvVyi+oeBXmWnxWSjJ7IEyUw==
   dependencies:
-    re-emitter "^1.0.0"
-    readable-stream "^2.0.0"
-    split "^1.0.0"
+    re-emitter "1.1.3"
+    readable-stream "2.2.9"
+    split "1.0.0"
     trim "0.0.1"
 
-tap-spec@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/tap-spec/-/tap-spec-4.1.1.tgz#e2e9f26f5208232b1f562288c97624d58a88f05a"
+tap-spec@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/tap-spec/-/tap-spec-5.0.0.tgz#7329e4e66e8aa68da2a164215abbb903a7c5d352"
+  integrity sha512-zMDVJiE5I6Y4XGjlueGXJIX2YIkbDN44broZlnypT38Hj/czfOXrszHNNJBF/DXR8n+x6gbfSx68x04kIEHdrw==
   dependencies:
     chalk "^1.0.0"
     duplexer "^0.1.1"
     figures "^1.4.0"
-    lodash "^3.6.0"
+    lodash "^4.17.10"
     pretty-ms "^2.1.0"
     repeat-string "^1.5.2"
-    tap-out "^1.4.1"
+    tap-out "^2.1.0"
     through2 "^2.0.0"
 
 tape@^4.6.3:
